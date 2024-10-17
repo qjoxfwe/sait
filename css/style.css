@@ -1,0 +1,427 @@
+@import url(normalize.css);
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    color: #000;
+}
+main{
+    padding: 55px 100px 55px 100px;
+    border-color: white;
+    border-radius: 30px;
+}
+h3{
+    font-size: 40pt;
+    margin: 0.67em 0px;
+}
+#randomButton{
+  background: #fff;
+  color: #000;  
+  padding: 10px;
+  border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругляем углы */
+    cursor: pointer; /* Показываем, что кнопка кликабельна */   
+}
+.bg-g{
+    background: #47B556;
+}
+.bg-b{
+    background: #47B556;
+}
+.body{ 
+    background-image:url('../img/background/Group8.png');
+    background-position: center; 
+}
+.search{
+    font-size: 24pt;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-width: 3px;
+    border-color: white;
+    background: transparent;
+    outline: none !important;
+}
+h1{
+    font-size: 40pt;
+}
+.glav-text{
+    font-size: 18pt;
+    padding-bottom: 20pt;
+    max-width: 1100px;
+    text-indent: 30px;
+}
+.block a{
+    font-size: 18pt;
+    padding-bottom: 20pt;
+}
+.border{
+    margin-top: 25pt;
+    padding-left: 20pt;
+    border-radius: 30px;
+}
+.image-container{
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.fl {
+    float: right;
+}
+.border img{
+    width: 100%; /* Изображение будет занимать всю доступную ширину */
+    height: 80%; /* Сохраняет пропорции изображения */
+    float: right;
+    margin-left: -5px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dg{
+    padding-top: 20pt;
+    display: grid;
+}
+.vac{
+    vertical-align: center;
+}
+.jcsa{
+    justify-content: space-around;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcc{
+    justify-content: center;
+}
+.flex{
+   display: flex;
+}
+.vertalign{
+    align-items: center;
+  }
+header{
+    padding: 34px 100px 30px 100px;
+    text-align: center;
+}
+header img{
+    padding-left: 41pt;
+    padding-right: 17pt;
+    max-width: 300px;
+    max-width: 300px;
+}
+header p{
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+}
+.heading{
+    float: right;
+    margin: 0px 10px; 
+}
+.search{
+    width: 100%;
+    color: white;   
+}
+.search::placeholder{
+    color: white;
+}
+.white{
+    background-color: white;
+}
+.footer{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-bottom: solid  white 3px;
+}
+.e{
+    padding-left: 100px;
+    color: #fff;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #17571f;
+}
+.content{
+    max-width: 1200px;   
+}
+.content img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.42857143;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bottomRightButton {
+    position: fixed;
+    bottom: 20px; /* Расстояние от кнопки до нижнего края экрана */
+    right: 10px; /* Расположение кнопки по правому краю */
+    padding: 10px 10px; /* Поля кнопки */
+    color: #fff; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругляем углы */
+    cursor: pointer; /* Показываем, что кнопка кликабельна */
+}
+li{
+    margin-left: 50px;
+    padding: 5px;
+}
+img{
+    max-width: 600px;
+    max-height: 400px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+.table-res {
+    width: 80%;
+    border: 1px black solid;
+}
+td{
+    padding: 10px;
+    border: 1px black solid;
+}
+th{
+    border: 1px black solid;
+    background: #E0E0E0;
+}
+.dop_res a{
+    color: #fff;
+}
+.dop_res h2{
+    margin-bottom: 20px;
+}
+.dop_res p{
+    padding: 2px;
+}
+.navmenu {
+    
+    overflow:hidden;
+    padding:10px;
+    text-align:left;
+    font-size:14px;
+    border-radius:10px;
+    position:fixed;
+    top:155px;
+    left:-580px;
+    transition:0.5s;
+}
+.navmenu:hover, .navmenu:active {
+    left:-40px;
+}
+.navmenu li{
+    line-height:25px;
+    left:1px;
+    list-style:circle;
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.navmenu li a {
+    color:#fff;
+}
+.navmenu img{
+    max-width: 50px;
+    position: fixed;
+    left: 20px;
+    top: 110px;
+    float: right;
+}
+.active {
+    border-bottom:1px dotted #32cd32;
+    font-weight:bold;
+}
+.active:hover {
+    border-bottom:1px dotted #2295FF;
+}
+
+@media (max-width: 1200px) {
+    h1{
+        font-size: 26pt;
+    }
+    h2{
+        font-size: 15pt;
+    }
+    .border{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    main{
+        padding: 5px 10px 5px 10px;
+        border-color: white;
+        border-radius: 30px;
+    }
+    .block a{
+        font-size: 18pt;
+        padding-bottom: 20pt;
+    }
+    img{   
+        max-width: 100%;
+        height: auto;
+    }
+    .navmenu {
+        overflow:hidden;
+        padding:10px;
+        text-align:left;
+        font-size:14px;
+        border-radius:10px;
+        position:fixed;
+        top:155px;
+        left:-550px;
+        transition:0.5s;
+    }
+    .navmenu img{
+        left: 3px;
+    }
+    .content{
+        margin-left: 50px;
+        max-width: 1000px;   
+    }
+    .footer{
+        padding: 20px 10px 50px 10px;
+    }
+    #bottomRightButton{
+        max-width: 200px;
+        position: fixed;
+        bottom: 2px;
+        right: 2px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 868px) { /*не превышающей 868 пикселей. */ 
+    header{ /* изминение верхней части web-страницы*/
+        padding: 34px 10px 30px 10px;  /*Отступы*/
+        text-align: center; /* выравнивание текста по центру*/
+    }
+    h1{
+        font-size: 20pt; /*Размер шрифта заголовка h1*/
+    }
+    .block a{
+        font-size: 18pt; /*Размер текста с сылками внутри .block */
+        padding-bottom: 20pt; /*Отступ снизу*/
+    }
+    img{ /*изменение изображений*/
+        max-width: 80%; /*максимальная ширина картинки 80%*/
+        height: auto; /*высота подгоняется по размеру*/
+    }
+    .navmenu {
+        overflow:hidden;  /** Скрытие любого содержимого, выходящего за границы контейнера **/
+        padding:10px; /** Добавление внутреннего отступа в 10 пикселей вокруг содержимого **/
+        text-align:left;   /** Выравнивание текста по левому краю **/
+        font-size:14px;  /** Установка размера шрифта в 14 пикселей **/
+        border-radius:10px; /** Создание скругленных углов вокруг контейнера на 10 пикселей **/
+        position:fixed; /** Фиксированное позиционирование элемента **/
+        top:155px; /** Установка позиции элемента вверху страницы с отступом в 155 пикселей **/
+        left:-550px; /** Положение элемента за левой границей видимой области экрана на -550 пикселей **/
+        transition:0.5s; /** Плавное изменение свойств элемента в течение 0.5 секунды **/
+    }
+    .content{
+        margin-left: 50px;/** Добавление отступа слева в 50 пикселей **/
+        max-width: 600px; /** Установка максимальной ширины контента в 600 пикселей **/
+    }
+  
+    #bottomRightButton{
+        max-width: 200px;/** Установка максимальной ширины кнопки в 200 пикселей **/
+        position: fixed; /** Фиксированное позиционирование кнопки **/
+        bottom: 5px;/** Размещение кнопки внизу страницы с отступом в 5 пикселей от нижнего края **/
+        right: 2px;/** Размещение кнопки справа с отступом в 2 пикселя от правого края **/
+        padding: 5px 10px;/** Добавление внутренних отступов по вертикали в 5 пикселей и по горизонтали в 10 пикселей **/
+        color: #fff;/** Установка цвета текста кнопки **/
+        border: none;/** Удаление границы у кнопки **/
+        border-radius: 5px;  /** Создание скругленных углов у кнопки на 5 пикселей **/
+        cursor: pointer;/** Установка курсора в виде указателя при наведении на кнопку **/
+    }
+}
+@media (max-width: 480px) {
+    header{
+        padding: 14px 10px 14px 10px;
+        text-align: center;
+    }
+    h3{
+        font-size: 25pt; 
+    }
+    ul li{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .navmenu img{
+        max-width: 30px;
+    }
+    .block a{
+        font-size: 12pt;
+        padding-bottom: 20pt;
+        width:100%;
+    }
+    .border{
+        margin: 0px;
+        margin-top: 15px;
+    }
+    .border img{
+        height: 100%;
+        margin: 0px;
+    }
+    .navmenu {
+        overflow:hidden;
+        padding:10px;
+        text-align:left;
+        font-size:14px;
+        border-radius:10px;
+        position:fixed;
+        top:155px;
+        left:-550px;
+        transition:0.5s;
+    }
+    .navmenu img{
+        left: 5px;
+    }
+    #bottomRightButton{
+        max-width: 170px;
+        position: fixed;
+        bottom: 3px;
+        right: 2px;
+        padding: 5px 10px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .footer{
+        color: white;
+        border-bottom: solid  white 3px;
+    }
+   .center{
+    display: grid;
+        justify-content: space-evenly;
+        align-items: start;
+        align-content: stretch;
+        justify-items: center;
+   }
+    .dop_res h2{
+        padding-top: 20px;
+        padding-left: 5px;
+        font-size: 18px;
+    }
+    .dop_res p{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+}
