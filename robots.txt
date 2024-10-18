@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /zadania/
+Allow: /
+Sitemap: https://ieshua1.github.io/sait/sitemap.xml
